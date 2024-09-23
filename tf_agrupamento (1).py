@@ -13,12 +13,12 @@ from sklearn.cluster import KMeans
 
 # Matriz filmes assistidos
 filmes_assistidos = np.array([
-    [1,0,0,1],
-    [1,1,0,0],
-    [0,1,1,0],
-    [0,0,1,1],
-    [1,0,1,0],
-    [0,1,0,1]
+    [1,0,0,1,1],
+    [1,1,0,0,0],
+    [0,1,1,0,1],
+    [0,0,1,1,0],
+    [1,0,1,0,1],
+    [0,1,0,1,0]
    ])
 
 # Definido o numero de clusters(grupo)
